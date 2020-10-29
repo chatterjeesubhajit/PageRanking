@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\being\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\being\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.1 (Amazon.com Inc. Java 1.8.0_265)
+[debug]       Load.loadUnit: plugins took 107.1193ms
+[debug]       Load.loadUnit: defsScala took 0.3067ms
+[debug] [Loading] Scanning directory C:\Users\being\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\being\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 30.8471 ms
+[debug]           Load.resolveProject(global-plugins) took 52.5298ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\being\.sbt\1.0\plugins, plugins: List(<none>))) took 301.3484ms
+[debug] [Loading] Done in C:\Users\being\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 329.572901ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.6422ms
+[debug]     Load.loadUnit(file:/C:/Users/being/.sbt/1.0/plugins/, ...) took 448.9084ms
+[debug]   Load.apply: load took 644.2412ms
+[debug]   Load.apply: resolveProjects took 6.1025ms
+[debug]   Load.apply: finalTransforms took 55.338201ms
+[debug]   Load.apply: config.delegates took 8.3561ms
+[debug]   Load.apply: Def.make(settings)... took 730.3812ms
+[debug]   Load.apply: structureIndex took 120.508699ms
+[debug]   Load.apply: mkStreams took 2.276699ms
+[info] loading global plugins from C:\Users\being\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3090.4679ms
+[debug]           Load.loadUnit: plugins took 20.0099ms
+[debug]           Load.loadUnit: defsScala took 0.0025ms
+[debug] [Loading] Scanning directory C:\Users\being\IdeaProjects\PageRanking\project
+[debug]             Load.loadUnit: mkEval took 8.394499ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\being\IdeaProjects\PageRanking\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.707001 ms
+[info] loading settings for project pageranking-build from idea.sbt ...
+[debug]               Load.resolveProject(pageranking-build) took 3.7933ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id pageranking-build, base: C:\Users\being\IdeaProjects\PageRanking\project, plugins: List(<none>))) took 6.2143ms
+[debug] [Loading] Done in C:\Users\being\IdeaProjects\PageRanking\project, returning: (pageranking-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2452.7554ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.127099ms
+[debug]         Load.loadUnit(file:/C:/Users/being/IdeaProjects/PageRanking/project/, ...) took 2477.6687ms
+[debug]       Load.apply: load took 2478.9353ms
+[debug]       Load.apply: resolveProjects took 0.0982ms
+[debug]       Load.apply: finalTransforms took 10.688099ms
+[debug]       Load.apply: config.delegates took 0.5403ms
+[debug]       Load.apply: Def.make(settings)... took 83.24ms
+[debug]       Load.apply: structureIndex took 28.0444ms
+[debug]       Load.apply: mkStreams took 0.002299ms
+[info] loading project definition from C:\Users\being\IdeaProjects\PageRanking\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4803.706601ms
+[debug]     Load.loadUnit: defsScala took 0.0023ms
+[debug] [Loading] Scanning directory C:\Users\being\IdeaProjects\PageRanking
+[debug]       Load.loadUnit: mkEval took 0.232001ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\being\IdeaProjects\PageRanking, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.0165 ms
+[info] loading settings for project pageranking from build.sbt ...
+[debug]         Load.resolveProject(pageranking) took 30.9528ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id pageranking, base: C:\Users\being\IdeaProjects\PageRanking, plugins: List(<none>))) took 34.316301ms
+[debug] [Loading] Done in C:\Users\being\IdeaProjects\PageRanking, returning: (pageranking)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1405.359699ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.069601ms
+[debug]   Load.loadUnit(file:/C:/Users/being/IdeaProjects/PageRanking/, ...) took 6218.694999ms
+[debug] Load.apply: load took 6220.124ms
+[debug] Load.apply: resolveProjects took 0.1139ms
+[debug] Load.apply: finalTransforms took 22.9981ms
+[debug] Load.apply: config.delegates took 0.3603ms
+[debug] Load.apply: Def.make(settings)... took 57.5896ms
+[debug] Load.apply: structureIndex took 20.7245ms
+[debug] Load.apply: mkStreams took 0.0033ms
+[info] set current project to PageRanking (in build file:/C:/Users/being/IdeaProjects/PageRanking/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 51042 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 51042, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to PageRanking (in build file:/C:/Users/being/IdeaProjects/PageRanking/)
+[debug] > Exec(idea-shell, None, None)

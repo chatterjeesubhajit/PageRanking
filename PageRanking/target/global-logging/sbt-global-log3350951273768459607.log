@@ -1,0 +1,15 @@
+[debug] > Exec({file:/C:/Users/being/IdeaProjects/PageRanking/}pageranking/package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\being\IdeaProjects\PageRanking\target\scala-2.11\classes ...
+[info] Non-compiled module 'compiler-bridge_2.11' for Scala 2.11.8. Compiling...
+[info]   Compilation completed in 12.418s.
+[info] done compiling
+[success] Total time: 18 s, completed Oct 22, 2020 2:38:47 AM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

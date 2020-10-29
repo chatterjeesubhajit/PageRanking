@@ -1,0 +1,11 @@
+[debug] > Exec({file:/C:/Users/being/IdeaProjects/PageRanking/}pageranking/package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 2 s, completed Oct 22, 2020 3:16:24 AM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
