@@ -1,6 +1,6 @@
 # PageRanking of Airports 
 ##  Used Google's Page Ranking algorithm to evaluate relative importance of nodes in a connected environment
-- Deployed using Scala with Spark framework , implementing an executable jar file in AWS EMR cluster
+- Deployed using Scala with Spark framework , implementing an [executable jar](https://github.com/chatterjeesubhajit/PageRanking/blob/main/pageranking_2.11-0.1.jar) file in AWS EMR cluster
 - Used Airport Traffic data from [Bureau of Transportation](https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236)
 - Used Origin and Destination Airport Codes as nodes in the connected environment
 - Used the no. of flights the in-links and out-links
